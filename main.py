@@ -7,25 +7,33 @@ from datetime import timedelta
 
 # find add holiday from https://www.time.ir/
 holidays_shamsi = [
-    '1403/03/03',
-    '1403/03/04',
-    '1403/03/10',
-    '1403/03/11',
-    '1403/03/14',
-    '1403/03/15',
-    '1403/03/17',
-    '1403/03/18',
-    '1403/03/24',
-    '1403/03/25',
-    '1403/03/28',
-    '1403/03/31',
+    '1403/04/01',
+    '1403/04/05',
+    '1403/04/06',
+    '1403/04/07',
+    '1403/04/08',
+    '1403/04/09',
+    '1403/04/10',
+    '1403/04/11',
+    '1403/04/12',
+    '1403/04/13',
+    '1403/04/14',
+    '1403/04/15',
+    '1403/04/16',
+    '1403/04/18',
+    '1403/04/21',
+    '1403/04/22',
+    '1403/04/25',
+    '1403/04/26',
+    '1403/04/28',
+    '1403/04/29',
 ]
 # add start day and end day for current month
-start_shamsi = jdatetime.date(1403, 3, 1)
-end_shamsi = jdatetime.date(1403, 4, 1)
+start_shamsi = jdatetime.date(1403, 4, 1)
+end_shamsi = jdatetime.date(1403, 5, 1)
 
 # Just get new cookie from request in this url : https://attendance.snappfood.ir/SnappPortal/snappportal/Core/Index%5D?board=AttendanceDataCorrectionRequestEdit
-cookie = 'themename=blue; themename-ui=uicupertino; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX1%2FSIuCyjw3unFXTnBhmI5Grm79qitRRi%2Fk%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX1%2FKxLpZyx%2BqQTYAH7TFjUIEqomRAIG%2BySY%3D; _gcl_au=1.1.1942426364.1715780867; ASP.NET_SessionId=r22rrscfakamvw4hyueucsjl; Lang=fa-IR; sg-dummy=-; rl_group_id=RudderEncrypt%3AU2FsdGVkX18wJbRGtn2yc8nb4%2Bv6BTGW1pbTo7fFtnk%3D; rl_group_trait=RudderEncrypt%3AU2FsdGVkX1%2Bq4B48YSQ0FlSNQKe%2FUG1hbKPadZ3Qzbk%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX1%2B01MlGx6%2F8Olb3xW6VcFX7BAC%2FgkrNIo6PPvvYzY9hPY45lPYL5QLtn2QscBptbRPk%2FqcOoRuRfA%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX19h9Oc0a8erB0QTUjCNKOKPt03n0CMOKpE%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX19Ns9b9Tqv%2FdzmPuEar3t9slP3In1p%2F5bEVgfgXOdICIHoOJxdYpX30OvKsU9Y3M1QKFZSVDeHWEAMRr43QO6p7zbBTc8X09kANNyUmgAns22PMrIuWMHcXxeHtpP%2BvOdIeG%2Ft1hhRS2Qvbk%2BENSsdruAseYd6M89ch91DPsNE76PBjwv0PbS7SJfxvsSDYXHWgAFqT3ZM2ie1Yp5LLtXARMGzOmmyCxwSi2ShPWSgjBKaTKWIBLPIn4cSNEKSIDYQ9uMa4IZaurItiBATjbRAngFyTrvTF0mO6V8Hf2%2BAV%2F5fP3YYsECKJvzPdi8rrJbjiXMOBJeXWgA%3D%3D; rl_session=RudderEncrypt%3AU2FsdGVkX18%2FKrY%2FWqpXzFgBpuFqkyUejVxJO2XoGRAQkk5N3NFotLxESFtdQWyA%2FMUcQDWAxDBJvMBJSieBOGW9s0kU%2FsZOX%2BTfRBsKwDJISPoCiI4fBq5RY0eNBO0nbKNhQxKWipw0GK1x9JvPVg%3D%3D; sg-hcmportal-SnappPortal=55b1c218-0c0f-4165-92ff-5ec0b680835f; SgPresentation=FC3B6A0B290ED368191BFD61642978CD07135B310DE54BADE6BABA0F0ABCF561CBCCF1474DE4D3331E1B8B43648A4AB40F8D4DA64BA68FCE715F2A34E7504FE0B4464198BC1E7FA26E1BCD1A9C37C7E7E47B258CD44BB8581BDB18A1781D7A43B061A35EE34EACC8C83AA6516CAE384CE4CF2FDC; lastUrl=/SnappPortal/snappportal/Core/Index]?board=AttendanceDataCorrectionRequestEdit'
+cookie = 'themename=blue; themename-ui=uicupertino; rl_page_init_referrer=RudderEncrypt%3AU2FsdGVkX1%2FU426sN7DcJzcRT1VVnutoWHhoeo64Tc4%3D; rl_page_init_referring_domain=RudderEncrypt%3AU2FsdGVkX189YzHjX2uMv4wJYjAHJ6UpPVAlVRnl9uk%3D; rl_group_id=RudderEncrypt%3AU2FsdGVkX1%2B0JeoAtY7KqNLH6njzzGamgIu2I6HD9TU%3D; rl_group_trait=RudderEncrypt%3AU2FsdGVkX1%2B5Kwr1RC4hX68kYCNihpaYf%2BE%2FhOr%2FcAA%3D; rl_anonymous_id=RudderEncrypt%3AU2FsdGVkX18ybOBqmIipaZyxZbENYQxWBXkVUQvl4AAXLoOdh5o%2FnoKZSNM05TLhn%2FwVi0KhPpzpFyyYRbBudw%3D%3D; rl_user_id=RudderEncrypt%3AU2FsdGVkX1%2BnGF1%2FXkcO4Puknt4%2BFYeFOQCqyCr9pXY%3D; rl_trait=RudderEncrypt%3AU2FsdGVkX19iB9Thm%2F%2Fj7zGwECquhUwpeD64cSP8Cbo%2BN%2B1Tq6fu6dYAfP0emlJAGy43IKvLUMWe9h8kSfKmdngZMe3CDBKir3UBdZ59FYNSsdqBLbDpplxMAyaO7L64GDHNur80EJym7YdfReEy%2F5XYYQBdMIPThnm6rpNCMN3QPVaw2OLR2vXaiM7V1l%2B7v41TONDxkbfIzKk39UCEqbyGgnykESRUes6%2FEHsGW2z7oIQJNdFRnZW3Buj832YOegQ0NxGwf6qeWoXmsomeAQ7FJ9OU2NBQrelk28R6YhmbQ5PBPPbzabJiz8%2FG0ozRS%2B7%2F17N9q3xPCd9swebbu3KNYmPwTcZBzrrFZBjVdAWIJ7%2B4ujTVzVo1JIckzybm; rl_session=RudderEncrypt%3AU2FsdGVkX1%2BZMPnjZ5cMHU%2FpXzpkJbTIBa8UlElXhqW3KE8IFTq9a6C1c5suBMiyKzShDsO2q1Opte9kKKQE8%2BoYTsIPfzCCOoSU2QatHjItpo3Mn5qDBwVi7TrnAFAoO7sbYCxXa%2F1Keayag%2FIrew%3D%3D; ASP.NET_SessionId=tyxyj4wieau1hgp3l12xr2ih; Lang=fa-IR; sg-dummy=-; sg-hcmportal-SnappPortal=9c3c156a-9f3a-4bab-ac0e-66566a619880; SgPresentation=ED5DB32F5A79605238456BC48AA4DB64378E9F6294DC0C3ECB50FED9C9AA2668B5E7CFE4815124C181E6C0C6C9AEC3FBC6640D31F5562E65196621EA7486DB99984A2B34BBA95C913F10D22EA84B89212348E74EF58560D179C4DCFE5C6D46E3135728445B2DAD33138D2D6C28083E0CDEB7CFC7; lastUrl=/SnappPortal/snappportal/Core/Index]?board=AttendanceDataCorrectionRequestEdit'
 
 now = datetime.now()
 holidays_gregorian = set(jdatetime.date(*map(int, holiday.split('/'))).togregorian() for holiday in holidays_shamsi)
@@ -126,7 +134,7 @@ for day in working_days_shamsi:
     response = requests.post(
         URL,
         headers=headers,
-        data=data_encoded
+        data=data_encoded,verify=False
     )
 
     print(response.text)
